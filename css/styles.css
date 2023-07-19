@@ -1,0 +1,127 @@
+#title {
+    background-color: rgb(243, 60, 90);
+    /* color: white; */
+}
+
+/* heading */
+.big-heading {
+    padding-top: 50px;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: beige;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.price-text {
+    font-size: 3rem;
+}
+
+.container {
+    padding: 7% 15%;
+    /* margin-left: 30%; */
+}
+
+.title-image {
+    padding-left: 100px;
+    transform: rotate(25deg);
+    padding-top: 10%;
+    height: 100%;
+    width: 75%;
+    z-index: -1;
+    /* position: relative; */
+
+}
+
+.icon {
+    color: #ef8172;
+    /* padding-bottom: 50px; */
+    margin: 50px;
+}
+
+.icon:hover {
+    color: #f8082c;
+}
+
+p {
+    color: gray;
+}
+
+#features {
+    padding: 5% 15%;
+    /* background-color: pink; */
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: maroon;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2%;
+}
+
+.press-logo {
+    width: 20%;
+    padding: 20px 20px 50px;
+
+}
+
+.carousel-item {
+    height: 300px;
+    padding-top: 50px;
+    /* background-color: red; */
+}
+
+#pricing {
+    padding: 70px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.download-button {
+    /* padding: 5% 5% 5% 5%; */
+    margin: 5% 1% 5%;
+}
+
+#footer {
+    text-align: center;
+    padding: 5% 5%;
+}
+
+@media(max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
